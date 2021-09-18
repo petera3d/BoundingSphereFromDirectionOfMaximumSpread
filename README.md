@@ -22,6 +22,9 @@ the largest eigenvector (maximum spread) will show us points spread direction.
 If point is not encompassed by sphere increase the sphere radius and displace the sphere center.
 
 
+I have created simple editor script where you can set random axis distance for x,y,z and points amount.
+
+It is better to run in Play mode because in edit mode scrips run slow.
 
 BOOKS
 
