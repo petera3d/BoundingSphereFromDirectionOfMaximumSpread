@@ -24,5 +24,7 @@ If point is not encompassed by sphere increase the sphere radius and displace th
 
 
 BOOKS
+
 Golub VanLoan Matrix Computations 4th (Section 8.5)
+
 Christer Ericson Real-Time Collision Detection p.90
