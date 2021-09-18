@@ -11,14 +11,14 @@ To compute bounding sphere we need the following steps
 
 2) Compute covariance matrix to get the maximum spread. Covariance matrices are always symmetric
 
-3)Run Jacobi rotation algorithm on symmetric covariance matrix to get Eigenvalues and Eigenvectors.
+3) Run Jacobi rotation algorithm on symmetric covariance matrix to get Eigenvalues and Eigenvectors.
 the largest eigenvector (maximum spread) will show us points spread direction.
 
-4)Compute minimum and maximum extreme points along largest spread direction of the points.
+4) Compute minimum and maximum extreme points along largest spread direction of the points.
 
-5)Compute sphere center and radius using extreme points.
+5) Compute sphere center and radius using extreme points.
 
-6)In the last step run function that iterate thought all points and checks if points is within or out of bounding sphere. 
+6) In the last step run function that iterate thought all points and checks if points is within or out of bounding sphere. 
 If point is not encompassed by sphere increase the sphere radius and displace the sphere center.
 
 
