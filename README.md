@@ -1,4 +1,4 @@
-# BoundingSphereFromDirectionOfMaximumSpread
+# Bounding Sphere From Direction Of Maximum Spread
 
 Create Bounding Sphere from 3d points using Covariance matrix and Jacobi rotation matrix algorithm to obtain eigenvalues and eigenvectors from synmetrix matrix.
 
